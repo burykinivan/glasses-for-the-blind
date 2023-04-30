@@ -1,3 +1,8 @@
+#Используемые библиотеки
+#pip install SpeechRecognition
+#pip install gTTS
+#pip install PyAudio
+# opencv
 import speech_recognition as sr
 import os
 import sys
