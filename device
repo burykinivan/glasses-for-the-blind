@@ -1,7 +1,8 @@
+```c++
 #include <Arduino.h>
-int trigPin = 7; // пин от датчик расстояния 
-int echoPin = 6; // пин от датчик расстояния 
-int buzzerPin = 8; // пин от пищалки
+int trigPin = 7;
+int echoPin = 6; 
+int buzzerPin = 8; 
 void setup() {
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
@@ -19,13 +20,13 @@ void loop() {
   cm = duration / 58;
   Serial.print(cm);
   Serial.println(" cm");
-  if (cm < 150) { // если расстояние меньше 150 см, то начинает работать пищалка
-    digitalWrite(buzzerPin, HIGH); // включить пищалку
-    delay(100); // задержка для создания эффекта писка
-    digitalWrite(buzzerPin, LOW); // выключить пищалку
-    delay(100); // задержка между писками
+  if (cm < 150) { 
+    digitalWrite(buzzerPin, HIGH); 
+    delay(100);
+    digitalWrite(buzzerPin, LOW); 
+    delay(100);
   } else {
-    digitalWrite(buzzerPin, LOW); // выключить пищалку
+    digitalWrite(buzzerPin, LOW); 
   }
   delay(1000);
 }
