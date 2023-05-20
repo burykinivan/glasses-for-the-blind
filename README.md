@@ -14,7 +14,7 @@
 
 ## Инструкция к запуску.
 
-Преред запуском программ  *artifical intelligance*, *face recognition*, *voice assistant* мы использовали следующие библиотеки.
+Преред запуском программ  *artifical intelligance*, *voice assistant* мы использовали следующие библиотеки.
 1) opencv
 2) numpy
 3) PyAudio
