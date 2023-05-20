@@ -1,4 +1,3 @@
-```c++
 #include <Arduino.h>
 int trigPin = 7;
 int echoPin = 6; 
