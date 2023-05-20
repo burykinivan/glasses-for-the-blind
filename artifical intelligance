@@ -1,4 +1,3 @@
-
 import cv2
 object_cascade = cv2.CascadeClassifier('object_cascade.xml')
 cap = cv2.VideoCapture(0)
