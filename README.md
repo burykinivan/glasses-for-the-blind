@@ -20,10 +20,11 @@
 3) SpeechRecognition
 4) gTTS
 
-Для установки вам необходимо скачать PIP. После чего открываете python. В терминале вводите
+Для установки вам необходимо скачать PIP. После чего открываете python. В терминале вводите:
 1) pip install SpeechRecognition
 2) pip install gTTS
 3) pip install PyAudio
+
 После чего устанавливаете opencv.
 
 ## Запуск нашего прибора.
