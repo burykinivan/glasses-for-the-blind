@@ -19,7 +19,7 @@ void loop() {
   cm = duration / 58;
   Serial.print(cm);
   Serial.println(" cm");
-  if (cm < 150) { 
+  if (cm < 150) { // если расстояние меньше 150 см, то начинает работать пищалка
     digitalWrite(buzzerPin, HIGH); // включить пищалку
     delay(100); // задержка для создания эффекта писка
     digitalWrite(buzzerPin, LOW); // выключить пищалку
