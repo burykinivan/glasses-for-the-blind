@@ -60,4 +60,4 @@ void loop() {
     digitalWrite(buzzerPin, LOW); // выключить пищалку
   }
   delay(1000);
-}```
+}
